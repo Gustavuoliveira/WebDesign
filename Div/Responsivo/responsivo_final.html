@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<meta charset="UTF-8">
+	<style type="text/css">
+	body{
+		background:#D4D4D4;
+		margin:0;
+		font-family: arial;
+		text-align: justify;
+		color:#333;
+	}
+	#tudo{
+		max-width:800px;
+		margin:20px auto;
+		background:#fefefe;
+		box-shadow: 0 0px 3px #000;
+		border-radius: 3px;
+	}
+	#topo{
+		min-height: 200px;
+		padding:5px;
+	}
+	.quadrinho{
+		float:left;
+		min-height:220px;
+		width:100%;
+	}
+	.artigo{
+		
+		padding:5px;
+		margin:5px;
+		height: 200px;
+	}
+	@media (min-width:600px) and (max-width:799px){
+		.quadrinho{
+			width:50%;
+			min-height:200px;
+		}
+		.artigo{
+			height: 180px;
+		}
+	}
+	@media (min-width:800px){
+		.quadrinho{
+			width:25%;
+			min-height:200px;
+		}
+		.artigo{
+			height: 190px;
+		}
+	}
+	#rodape{
+		padding-top: 30px;
+		min-height: 110px;
+		background:#efefef;	
+	}
+
+	#apresentacao{
+		padding:10px;
+	}
+	#rodape .quadrinho{
+		text-align: center;
+	}
+	#rodape ul{
+		
+		padding:0;
+		list-style: none;
+	}
+	</style>
+</head>
+<body>
+	<div id="tudo">
+		<div id="topo">
+			<div id="apresentacao">
+				<h1>Esta parte, normalmente é usada para uma apresentação do site ou um slider de imagens</h1>
+				<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+			</div>
+		</div>
+
+		<div id="q1" class="quadrinho">
+			<div class="artigo">
+				<h2>Titulo do artigo</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div>
+		</div>
+		<div id="q2" class="quadrinho">
+			<div class="artigo">
+				<h2>Titulo do artigo</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div>
+		</div>
+		<div id="q3" class="quadrinho">
+			<div class="artigo">
+				<h2>Titulo do artigo</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div>
+		</div>
+		<div id="q4" class="quadrinho">
+			<div class="artigo">
+				<h2>Titulo do artigo</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div>
+		</div>
+
+		<div style="clear:both"></div>
+		
+		<div id="rodape">
+			<div class="quadrinho">
+				<ul>
+					<li>Item 1</li>
+					<li>Item 1</li>
+					<li>Item 1</li>
+					<li>Item 1</li>
+				</ul>
+			</div>
+			<div class="quadrinho">
+				<ul>
+					<li>Item 1</li>
+					<li>Item 1</li>
+					<li>Item 1</li>
+					<li>Item 1</li>
+				</ul>
+			</div>
+			<div class="quadrinho">
+				<ul>
+					<li>Item 1</li>
+					<li>Item 1</li>
+					<li>Item 1</li>
+					<li>Item 1</li>
+				</ul>
+			</div>
+			<div class="quadrinho">
+				<ul>
+					<li>Item 1</li>
+					<li>Item 1</li>
+					<li>Item 1</li>
+					<li>Item 1</li>
+				</ul>
+			</div>
+			<div style="clear:both"></div>
+		</div>
+	</div>
+</body>
+</html>

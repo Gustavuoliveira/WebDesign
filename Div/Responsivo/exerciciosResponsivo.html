@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Layout Responsivo</title>
+		<meta name="viewport" content="width=device-width, user-scalable=no">
+		<meta charset="UTF-8">
+		
+		<style>
+			body{
+				margin:0;
+			}
+			#container{
+				max-width:800px;
+				margin: 0 auto;
+				padding:10px;
+			}
+			#um{
+				background:#336699;
+			}
+			#dois{
+				background:#993366;
+				float:left;
+					
+			}
+			#tres{
+				background:#999999;
+				float:left;
+				
+			}
+			@media (min-width:820px){
+				#dois{
+					
+					width:400px;
+				}
+				#tres{
+					width:400px;
+				}
+		    }
+		    @media (max-width:800px){
+		    	
+		    }
+			#quatro{
+				background:#ef8989;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="container">
+			 <div id="um">
+			 	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			 	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			 	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			 	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			 	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			 </div>
+			 <div id="dois">
+			 	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			 	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			 	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			 	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			 	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			 </div>
+			 <div id="tres">
+			 	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			 	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			 	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			 	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			 	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			 </div>
+			 <div style="clear:both"></div>
+			 <div id="quatro">
+			 	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			 	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			 	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			 	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			 	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			 </div>
+		</div>
+	</body>
+</html>
